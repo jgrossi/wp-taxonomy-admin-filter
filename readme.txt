@@ -11,7 +11,7 @@ Show a select field on posts list allowing to filter posts by taxonomy
 
 This plugin allow you to filter posts by a specific taxonomy. Inside your functions.php file:
 
-    new Tax_CTP_Filter(array(
+    new TaxonomyAdminFilter(array(
         'book' => array('genre','author'),
         'movie' => array('genre','actors'),
         'task' => array('task_status'),
